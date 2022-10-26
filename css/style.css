@@ -1,0 +1,18 @@
+body {
+    background-color: darkslategrey;
+}
+
+h1 {
+    font-size: 5vw; color: antiquewhite; text-align: center;
+}
+
+h3 {
+    font-size: 2vw; text-align: center;
+}
+main p {
+    color: aqua;
+}
+
+ul {
+    color: violet;
+}
