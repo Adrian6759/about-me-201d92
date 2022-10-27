@@ -1,5 +1,5 @@
 body {
-    background-color: darkslategrey;
+    background-color: darkslategrey; 
 }
 
 h1 {
@@ -10,9 +10,17 @@ h3 {
     font-size: 2vw; text-align: center;
 }
 main p {
-    color: aqua;
+    color: aqua; text-align: center;
 }
 
 ul {
-    color: violet;
+    color: violet; 
+}
+
+ul li {
+    list-style-type: square; ;
+}
+
+ol li{
+    color: maroon;align-items: center;
 }
