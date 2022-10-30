@@ -98,15 +98,14 @@ function guess6() {
 guess6();
 
 function guess7() {
-  if (guessAttempts === 0) {
-    alert('Nice try but the answer is 8.');
-  }
 
   let favFoods = ['mexican', 'thai', 'korean', 'indian'];
   let favFoodsAttempts = 6;
   for (let i = 0; i < 6; i++) {
     let guessSeven = prompt('What is one of my favorite types of cuisine? For example... American, British, German, etc.').toLowerCase();
     favFoodsAttempts--;
+
+
 
     for (let j = 0; j < favFoods.length; j++) {
 
@@ -117,13 +116,21 @@ function guess7() {
         break;
       }
     }
-  }
 
-  if (favFoodsAttempts === 0) {
-    alert('The correct answers were Mexican, Thai, Korean, and Indian. I love most food but these are the top four.');
+
+    if (favFoodsAttempts === 0) {
+      alert('The correct answers were Mexican, Thai, Korean, and Indian. I love most food but these are the top four.');
+    }
   }
 }
 guess7();
 
-
 alert(`Thanks for playing ${answer}! You got ${correctAnswers}/7 questions correct. Hopefully you enjoyed yourself. Make sure to tune in next week for another round!`);
+
+
+
+
+
+
+
+
